@@ -1,0 +1,26 @@
+.jumbotron{
+  margin: 13%;
+  padding:15% 15% 15% 15%;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 5x 5px black;
+}
+
+.aboutme{
+	font-size:1.3em;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center
+}
+
+.page{
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.7);
+}
+
+#me{
+	width: 80%;
+	display:block;
+	margin: 0 auto;
+	margin-top: 40%;
+	border-radius: 10%;
+}

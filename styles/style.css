@@ -38,10 +38,10 @@ body{
 .btn-default:hover{
 	color:white;
 	transition-duration: 0.5s;
-	letter-spacing: 2px;
+	transform: scale(1.1);
 	background-color: transparent;
 	border-color:white;
-
+	-webkit-transition: all 100ms ease;
 }
 
 .jumbotron{
@@ -60,9 +60,6 @@ body{
 	background-position: bottom;
 }
 
-#page1 h1{
-
-}
 
 #page3 {
 	text-align: center;
@@ -71,6 +68,10 @@ body{
 #page2 h2{
 	border-top: 2em;
 	text-align: center;
+}
+
+#page4{
+	display:none;
 }
 
 .aboutme{
@@ -102,8 +103,8 @@ body{
 }
 
 #page4 h2{
-	text-align: center; 
-	margin-top: 1em; 
+	text-align: center;
+	margin-top: 1em;
 	margin-bottom: 1em;
 }
 
@@ -127,4 +128,4 @@ h3{
 
 img {
 	vertical-align: middle;
-} 
+}

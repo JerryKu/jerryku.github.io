@@ -1,0 +1,131 @@
+body{
+	background-color: #efeff5;
+}
+
+.navbar{
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+	text-align: center;
+}
+
+.navbar-inverse .navbar-brand:hover,.navbar-inverse .navbar-nav>li>a:hover{
+	transition-duration: 0.5s;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a{
+	color:white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.navbar-collapse{
+	background-color: rgba(0,0,0,0.3);
+	width:auto;
+}
+
+.navbar li{
+	color: #000;
+}
+
+.btn-default{
+	background-color: transparent;
+	color: white;
+	border-width: 2px;
+}
+
+.btn-default:hover{
+	color:white;
+	transition-duration: 0.5s;
+	transform: scale(1.1);
+	background-color: transparent;
+	border-color:white;
+	-webkit-transition: all 100ms ease;
+}
+
+.jumbotron{
+  margin: 13%;
+  padding:15% 15% 15% 15%;
+  color: white;
+  text-align: center;
+  text-shadow: 3px 5px 5px black;
+  background-color: rgba(0,0,0,0);
+}
+
+#page1{
+	background-image: url("../pics/UCSC Bridge.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+
+#page3 {
+	text-align: center;
+}
+
+#page2 h2{
+	border-top: 2em;
+	text-align: center;
+}
+
+#page4{
+	display:none;
+}
+
+.aboutme{
+	font-size:1.3em;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: center
+}
+
+.page{
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.7);
+}
+
+#me{
+	width: 80%;
+	display: block;
+	margin: auto;
+	margin-top: 30%;
+	border-radius: 10%;
+	margin-bottom: 10%;
+}
+
+#page2{
+	background-color: #8585ad;
+}
+
+#page4{
+	background: #d1d1e0;
+}
+
+#page4 h2{
+	text-align: center;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#page4 h3{
+	padding-top: 0;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid gray;
+}
+
+h3{
+	margin-top: 0;
+}
+
+#page4 .thumbnail{
+	display: block;
+	border: none;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+img {
+	vertical-align: middle;
+}

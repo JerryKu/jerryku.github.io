@@ -4,9 +4,11 @@
 	<title>Jerry Ku</title>
 	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<script src="bower_components/jquery/dist/jquery.js"></script>
-  	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Anton|Armata' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div class="row">
@@ -22,7 +24,7 @@
 	            	<a href="#about" id="aboutme">About</a>
 	            </li>
 	            <li>
-	            	<a href="#portfolio" id="portfolio">Portfolio</a>
+	            	<a href="#portfolio" id="portfoliolink">Portfolio</a>
 	            </li>
 	            <li>
 	            	<a href="#contact" id="contactlink">Contact</a>
@@ -38,18 +40,18 @@
 	    <div class="row">
 	      <div class="jumbotron">
 	        <h1>Jerry Ku</h1>
-	        <p>Aspiring Software Engineer</p>
+	        <p>Software Engineer</p>
 	        <br>
 	        <br>
 	        <div class="row">
 	        	<div class="col-lg-4">
-	        		<a href="https://www.linkedin.com/in/jerry-ku/" class ="btn btn-lg btn-default">LinkedIn</a>
+	        		<a href="https://www.linkedin.com/in/jerry-ku/" class ="btn btn-lg btn-default" target="_blank"> <i class ="fa fa-linkedin"></i> LinkedIn</a>
 	        	</div>
 	        	<div class="col-lg-4">
-	        		<a href="https://github.com/JerryKu" class ="btn btn-lg btn-default">GitHub</a>
+	        		<a href="https://github.com/JerryKu" class ="btn btn-lg btn-default" target="_blank"><i class ="fa fa-github"></i> GitHub</a>
 	        	</div>
 	        	<div class="col-lg-4">
-	        		<a href="./pdf/Jerry_Ku_Resume.pdf" class ="btn btn-lg btn-default">Resume</a>
+	        		<a href="./pdf/Jerry_Ku_Resume.pdf" class ="btn btn-lg btn-default" target="_blank"><i class="fa fa-file-text-o"></i> Resume</a>
 	        	</div>
 	        </div>
 	    </div>
@@ -57,7 +59,7 @@
 	</div>
 
     <div id="page2" class="page col-lg-offset-2 col-lg-8">
-      <a id="aboutme"></a>
+      <a id="about"></a>
       <div class="row">
       	<div class="col-sm-3">
         	<img id="me" src="pics/me.jpg">
@@ -65,25 +67,46 @@
       	<div class="col-sm-9">
       		<h2>About Me</h2>
       		<hr>
-      		<p class="aboutme">Hi, I'm Jerry, a recent graduate of University of California, Santa Cruz. In the early years of my undergraduate studies, I created multiple projects using primarily Java. More recently I became extremely interested in web development and have began teaching myself everything I can regarding web development. Some Technologies that I've learned to use thus far are Express/Node.js, MongoDB, Angular, and jQuery.
+      		<p class="aboutme">Hi, my name is Jerry and I am a recent graduate of University of California, Santa Cruz. Though my early projects were primarily mobile based, I am currently pursing a career in web development. I believe that you learn most by doing so I am constantly striving to learn new things.
+						<br>
+						<br>
+						My skills in web development are primarily self taught. Object oriented programming languages I am proficient in are <strong>Java and Javascript</strong>. Some web technologies and frameworks that I have learned to use thus far: <strong>HTML, CSS, NodeJS, Express, PostGresSQL, MongoDB, PolymerJS, Bootstrap, AJAX, JSON, jQuery</strong>.
       			<br>
       			<br>
-      		I currently work as an IT Technician at Corotech, but I am actively seeking employment as a Software Engineer/Web Developer. Please check out some of my past projects and things I am currently working on below.
+      		I currently work part time as an IT Technician at Corotech, in my free time I work as a full stack developer for ClubHub, a company started by my brothers and I. This allows me to practice and enhance my software engineering skills while I pursue a full time web developer position.
       		</p>
       	</div>
       </div>
+			<br>
+			<br>
+			<span><strong>Check out my latest work:</strong><br><i class = "fa fa-chevron-down arrow"></i></span>
+			<br>
      </div>
+
 
      <div id="page3" class="page col-lg-offset-2 col-lg-8">
-     	<a id="Current Projects"></a>
-     	<h2>What I've been working on</h2>
+     	<a id="portfolio"></a>
+     	<h2>Portfolio</h2>
 
-			<button id="project">Projects</button>
-     </div>
+			<div class="row">
+     		<div class="col-sm-6 col-md-6">
+     			<div class="thumbnail">
+     				<a href="https://clubhub.club"><img src="pics/clubhub.png"></a>
+     			</div>
+     		</div>
+     		<div class="col-sm-6 col-md-6">
+     			<h3>ClubHub</h3>
+					<div class="tech"><span>Html</span> <span>JavaScript</span> <span>Polymer</span> <span>CSS</span><span>Bootstrap</span> <span>Cordova</span> <span>Node</span><span>Express</span> <span>PostGresSQL</span></div>
+					<br>
+     			<p>
+     				ClubHub is a web-based mobile application that allows users to easily order drinks from bars straight from their phones. No more waiting to get the bartender's attention when you're at the clubs. Just order from your phone and step up to the bar when its ready.
+     			</p>
+     			<br>
+     			<p>
 
-     <div id="page4" class="page col-lg-offset-2 col-lg-8">
-     	<a id="Past Projects"></a>
-     	<h2>Past Projects</h2>
+     			</p>
+     		</div>
+     	</div>
 
      	<div class="row">
      		<div class="col-sm-6 col-md-6">
@@ -93,6 +116,7 @@
      		</div>
      		<div class="col-sm-6 col-md-6">
      			<h3>OnWatch</h3>
+					<div class="tech"><span>Java</span> <span>C</span> <span>Android</span> <span>Cloud Pebble</span> <span>Android Studio</span></div>
      			<br>
      			<p>
      				OnWatch is a Pebble Smartwatch application that keeps your emergency contacts easily accessible at a click of a button. Users may indicate their distress level and the application will send a text message to their emergency contacts with their distress level and last known location.
@@ -112,6 +136,7 @@
      		</div>
      		<div class="col-md-6 col-sm-6">
      			<h3>Nosh</h3>
+					<div class="tech"><span>Java</span> <span>Android</span> <span>Android Studio</span> <span>Yelp API</span> <span>Uber API</span> <span>Python</span></div>
      			<br>
      			<p>
      				Nosh is an Android application that allows users to randomly generate nearby restaurants based on preset parameters and have food delivered to them or call an uber to take them to the restaurant.
@@ -122,16 +147,26 @@
      			</p>
      		</div>
      	</div>
-
-     	<div class="row">
-	     	<div class="col-sm-6 col-md-6">
-	     		<div class="thumbnail">
-	     			<a href=""><img src=""></a>
-	     		</div>
-	     	</div>
-     	</div>
-
      </div>
+
+		 <div id ="page4"  class="page col-lg-offset-2 col-lg-8 page">
+		 <a id="contact"></a>
+		 <h3 >Contact me at: <p><a href="mailto:jerryku1220@gmail.com"><i class="fa fa-envelope-o"></i></a> Jerryku1220@gmail.com</p></h3>
+		 <hr>
+		 <p>Or find me below:</p>
+		 <div class="row" style="padding-bottom: 20px">
+			 <div class="col-sm-offset-3 col-sm-6">
+				 <a href ="https://www.linkedin.com/in/jerry-ku/" class ="btn btn-md btn-default" target="_blank">
+					 <i class ="fa fa-linkedin"></i>
+					 LinkedIn
+				 </a>
+				 <a href ="https://github.com/JerryKu" class ="btn btn-md btn-default" target="_blank">
+					 <i class ="fa fa-github"></i>
+					 GitHub
+				 </a>
+			 </div>
+		 </div>
+	 </div>
 		 <script src="index.js"></script>
 </body>
 </html>
